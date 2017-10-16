@@ -22,4 +22,3 @@ def build_estimator(model_dir):
     graph_builder_class = tensor_forest.RandomForestGraphs
     if FLAGS.use_training_loss:
         graph_builder_class = tensor_forest_v5.TrainingLossForest
-        
